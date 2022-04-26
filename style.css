@@ -21,7 +21,7 @@ body, .bg-dark {
 .nav-link{
     margin-right: 10px;
     margin-left: 10px;
-    color: black;
+    color: brown !important;
     text-transform: uppercase;
     
 }
@@ -33,13 +33,13 @@ body, .bg-dark {
     width: 72px;
     border-radius: 50px;
 }
-.main{
+/* .main{
     background:url(./bg.jpg)no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: 50% 50%;
     width: 100%;
-}
+} */
 .btn1{
     height: 55px;
     width: 20%;
@@ -56,13 +56,16 @@ body, .bg-dark {
     background-color:rgb(245, 237, 237);
   color: rgb(124, 33, 33);
 }
-.donate-card-section {
+.donate-card-section, .form {
    
     padding: 10vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Cookie', cursive;
+    font-family: 'Arsenal', sans-serif;
+    color : brown;
 }
 
 
